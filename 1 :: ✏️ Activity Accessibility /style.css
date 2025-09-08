@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: "Roboto Regular";
+}
+
+#wrapper  {
+	height: 800px;
+	width: 1200px;
+	margin: auto;
+	
+}
+#wrapper main {
+	width: 1300px;
+}
+
+ main #left {
+	width: 400px;
+	float:left;
+}
+#right {
+	width:400px;
+	float: left;
+}
+
+#wrapper main #mid {
+	float: left;
+
+	
+}
+
+.skip-link{
+   background: #C78C3B;
+   color: white;
+   font-weight: 700;
+   left: 50%;
+   padding: 4px;
+   position: absolute;
+   overflow: hidden;
+
+   
+}
+
+.skip-link:focus{
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+}
+
+nav {
+	color: #C78C3B;
+	font-family: "Roboto_Regular";	
+
+}
+
+nav ul  {
+	color: #C78C3B;
+   list-style-type: none;
+	display: block;
+	margin: 20px auto;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+	
+nav ul li a{
+	text-decoration: none;
+	color:#C78C3B;
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+nav ul li:first-child {
+	margin-left: -20px;
+}
+
+nav li.before:not(:first-child):before {
+    content: " | "; 
+}
+
+nav li.after:not(:first-child):before {
+    content: " | "; 
+}
+nav li#howtomeasure:after {
+    content: " | "; 
+}
+
+h1{
+    color:#C78C3B;
+    font-family: "Roboto Regular";
+    font-weight: lighter;
+    text-align: center;
+}
+
+#content{
+    margin-top: 100px;
+    clear: both;
+}
